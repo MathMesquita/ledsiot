@@ -1,0 +1,26 @@
+.ledsBtn__container {
+  width: 100%;
+  display: flex;
+  height: calc(100vh/3);
+}
+
+.ledsBtn__container > button {
+  display: block;
+  flex-grow: 1;
+  background-color: transparent;
+  border: 1px solid #000;
+  margin: 30px
+}
+
+.ledsBtn__container.vermelho > button {
+  color: red;
+  border-color: red;
+}
+.ledsBtn__container.verde > button {
+  color: green;
+  border-color: green;
+}
+.ledsBtn__container.amarelo > button {
+  color: #c3c320;
+  border-color: #c3c320;
+}
